@@ -1,10 +1,14 @@
 [project]
 name = "mcp-wordle"
 version = "0.1.0"
-description = "Add your description here"
+description = "MCP Server that returns Wordle solutions for a particular date"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastmcp>=2.9.2",
     "requests>=2.32.4",
 ]
+
+[[project.authors]]
+name = "Chandrashekhar R"
+email = "73425927+cr2007@users.noreply.github.com"
