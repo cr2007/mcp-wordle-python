@@ -6,8 +6,7 @@ FROM ghcr.io/astral-sh/uv:0.7-python3.10-bookworm-slim AS builder
 
 # Enable bytecode compilation
 ENV UV_COMPILE_BYTECODE=1 \
-    UV_LINK_MODE=copy \
-    DIRECTORY=mcp_wordle
+    UV_LINK_MODE=copy
 
 # Disable Python downloads, because we want to use the system interpreter
 # across both images.
@@ -25,7 +24,7 @@ COPY uv.lock /app
 COPY pyproject.toml /app
 COPY README.md /app
 COPY .python-version /app
-ADD ./src/${DIRECTORY} /app/${DIRECTORY}
+ADD ./src/ /app/src
 
 RUN --mount=type=cache,target=/root/.cache/uv \
 uv sync --locked --no-dev
