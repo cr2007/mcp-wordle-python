@@ -1,0 +1,22 @@
+{
+    "name": "Wordle MCP Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+        "ghcr.io/va-h/devcontainers-features/uv:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-vsliveshare.vsliveshare",
+                "VisualStudioExptTeam.vscodeintellicode",
+                "eamodio.gitlens",
+                "usernamehw.errorlens",
+                "aaron-bond.better-comments",
+                "github.vscode-github-actions",
+                "redhat.vscode-yaml"
+            ]
+        }
+    },
+    "postStartCommand": "uv sync"
+}
