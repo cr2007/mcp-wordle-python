@@ -5,8 +5,8 @@
 
 A MCP Server for fetching the Wordle solutions via the Wordle API.
 
-> ![NOTE]
-> Wordle solutions are only available from 2021-05-19, to 23 days in the future.
+> [!NOTE]
+> Wordle solutions are only available from 2021-05-19, to 23 days in the future.<br>
 > Any other attempts at calling other dates will return an error from the API
 
 <!-- omit from toc -->
@@ -46,7 +46,7 @@ Add this to your MCP Server configuration:
 ```
 
 > [!IMPORTANT]  
-> If you get an error on Claude Desktop for the first time, just make sure to pull the image before running.
+> If you get an error on Claude Desktop for the first time, just make sure to pull the image before running.<br>
 > `docker pull ghcr.io/cr2007/mcp-wordle:latest`
 
 ## Installing via `uvx`
