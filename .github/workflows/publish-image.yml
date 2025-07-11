@@ -1,6 +1,13 @@
 name: Publish to Github Container Registry
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'uv.lock'
+      - 'pyproject.toml'
+      - '.python-version'
+      - 'README.md'
+      - 'src/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
