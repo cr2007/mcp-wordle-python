@@ -1,5 +1,5 @@
 <!-- omit from toc -->
-# Wordle MCP
+# Wordle MCP (Python)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cr2007/mcp-wordle-python)
 
@@ -38,7 +38,7 @@ Add this to your MCP Server configuration:
         "--init",
         "-e",
         "DOCKER_CONTAINER=true",
-        "ghcr.io/cr2007/mcp-wordle:latest"
+        "ghcr.io/cr2007/mcp-wordle-python:latest"
       ]
     }
   }
@@ -47,7 +47,7 @@ Add this to your MCP Server configuration:
 
 > [!IMPORTANT]  
 > If you get an error on Claude Desktop for the first time, just make sure to pull the image before running.<br>
-> `docker pull ghcr.io/cr2007/mcp-wordle:latest`
+> `docker pull ghcr.io/cr2007/mcp-wordle-python:latest`
 
 ## Installing via `uvx`
 
@@ -61,7 +61,7 @@ Add this to your MCP server configuration:
       "command": "uvx",
         "args": [
           "--from",
-          "git+https://github.com/cr2007/mcp-wordle",
+          "git+https://github.com/cr2007/mcp-wordle-python",
           "mcp-wordle"
         ]
       }
@@ -77,4 +77,4 @@ Add this to your MCP server configuration:
 
 # Contributing
 
-Contributions are welcome! You may [fork](https://github.com/cr2007/mcp-wordle/fork) the repo, create your changes in a branch, and then create a [Pull Request](https://github.com/cr2007/mcp-wordle/compare)
+Contributions are welcome! You may [fork](https://github.com/cr2007/mcp-wordle-python/fork) the repo, create your changes in a branch, and then create a [Pull Request](https://github.com/cr2007/mcp-wordle-python/compare)
