@@ -9,7 +9,7 @@
 
 A MCP Server for fetching the Wordle solutions via the Wordle API.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Wordle solutions are only available from 2021-05-19, to 23 days in the future.<br>
 > Any other attempts at calling other dates will return an error from the API
 
