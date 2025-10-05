@@ -8,6 +8,8 @@ on:
       - '.python-version'
       - 'README.md'
       - 'src/**'
+      - 'Dockerfile'
+      - '.dockerignore'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
