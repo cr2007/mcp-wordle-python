@@ -1,0 +1,18 @@
+# Ignore other files irrelevant to the Docker build
+.devcontainer/
+.github/
+.vscode/
+
+# Ignore Docker-related files
+Dockerfile*
+.dockerignore
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+.git
+.gitignore
+.gitattributes
+
+.ruff_cache/
