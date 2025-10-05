@@ -4,6 +4,8 @@
 .vscode/
 .venv/
 images/
+src/mcp_wordle/__pycache__
+.ruff_cache/
 
 # Ignore Docker-related files
 Dockerfile*
@@ -16,5 +18,3 @@ Thumbs.db
 .git
 .gitignore
 .gitattributes
-
-.ruff_cache/
