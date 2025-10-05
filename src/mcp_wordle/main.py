@@ -10,7 +10,7 @@ from typing import TypedDict, Union
 import requests
 from fastmcp import FastMCP
 
-mcp = FastMCP("WordleMCP", dependencies=["requests"])
+mcp = FastMCP("WordleMCP")
 
 
 class WordleAPIData(TypedDict):

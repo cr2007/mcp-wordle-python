@@ -1,0 +1,6 @@
+{
+    "entrypoint": "src/mcp_wordle/main.py",
+    "environment": {
+        "dependencies": ["requests"]
+    }
+}
