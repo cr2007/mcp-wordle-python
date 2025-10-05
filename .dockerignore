@@ -1,7 +1,9 @@
-# Ignore other files irrelevant to the Docker build
+# Ignore other directories irrelevant to the Docker build
 .devcontainer/
 .github/
 .vscode/
+.venv/
+images/
 
 # Ignore Docker-related files
 Dockerfile*
